@@ -1,1 +1,1 @@
-# SI676 Jekyll Site  Figuring out Jekyll on Github Pages
+# SI676 Jekyll Site<br>Figuring out Jekyll on Github Pages

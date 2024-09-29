@@ -16,17 +16,25 @@
 title: SI676 Test Site (but I figured it out this time)
 email: asaakov@umich.edu
 description: >- # this means to ignore newlines until "baseurl:"
-  Figuring Jekyll out for Github pages was confusing. There are
-  a lot of layers to it, like cake, or many other food-related
-  items.
+  This may or may not be my third try.
 domain: artemsaakov.github.io
 url: https://artemsaakov.github.io # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: /test-site-jekyll # the subpath of your site, e.g. /blog
 github_username:  ArtemSaakov
+github:
+  repository_url: https://github.com/ArtemSaakov/test-site-jekyll
 
 # Build settings
 markdown: kramdown
 theme: jekyll-theme-merlot
+nav_links:
+  - title: "Home"
+    url: "/"
+  - title: "About"
+    url: "/about"
+  - title: "Updates"
+    url: "/update"
+
 plugins:
   - jekyll-feed
   - jekyll-sitemap

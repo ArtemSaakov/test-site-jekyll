@@ -28,12 +28,12 @@ github:
 markdown: kramdown
 theme: jekyll-theme-merlot
 nav_links:
-  - title: "Home"
-    url: "/"
-  - title: "About"
-    url: "/about"
-  - title: "Updates"
-    url: "/update"
+  - title: Welcome!
+    url: /
+  - title: About
+    url: /about/
+  - title: Posts
+    url: /posts-page/
 
 plugins:
   - jekyll-feed

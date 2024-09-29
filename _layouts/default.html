@@ -55,10 +55,16 @@
 
       <span class="banner-fix"></span>
 
+      <div class="sidebar-wrapper">
 
-      <section id="main_content">
-        {{ content }}
-      </section>
+        <aside>
+          {% include sidebar.html %}
+        </aside>
+
+        <section id="main_content">
+          {{ content }}
+        </section>
+      </div>
 
       <footer>
         <span class="ribbon-outer">

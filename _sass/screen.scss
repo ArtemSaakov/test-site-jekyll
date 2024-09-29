@@ -580,3 +580,36 @@
   .post-list li {
     font-size: 110%;
   }
+
+  .sidebar-wrapper {
+    margin: 0;
+    padding: 0;
+  }
+
+  .sidebar {
+    position: fixed;
+    top: 10em;
+    left: 0;
+    width: 200px;
+    height: 100%;
+    padding: 20px;
+    overflow-y: auto;
+  }
+
+  .sidebar nav ul {
+    list-style-type: none;
+    padding: 0;
+  }
+
+  .sidebar nav ul li {
+    margin: 10px 0;
+  }
+
+  .sidebar nav ul li a {
+    text-decoration: none;
+    color: #333;
+  }
+
+  .sidebar nav ul li a:hover {
+    text-decoration: underline;
+  }
